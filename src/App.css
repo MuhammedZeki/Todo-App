@@ -1,0 +1,74 @@
+.container{
+    margin: 10px auto;
+}
+.flex-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    padding: 5px;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    gap: 5px;
+    padding: 5px;
+}
+.home{
+    margin-top: 50px;
+    width: 500px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 10px;
+}
+.searchInput{
+    border-bottom: 1px solid lightgray;
+    width: 100%;
+    font-size: 17px;
+}
+.searchButton{
+    border: 1px solid lightgray;
+    cursor: pointer;
+    padding: 9px 18px;
+    border: 5px;
+}
+.searchButton:hover{
+    border-bottom: 1px solid rgb(142, 138, 138);
+    transition: all .6s;
+}
+.search{
+    outline: none;
+    border: none;
+    padding: 7px 16px;
+    width: 100%;
+    font-size: 17px;
+}
+.todoList{
+    padding: 5px;
+    margin-top: 20px;
+}
+.todo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between !important;
+}
+.icons{
+    cursor: pointer;
+    font-size: 30px;
+    margin: 1px 3px;
+
+}
+.input{
+    width: 50%;
+}
+.inputBar{
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    font-size: 17px;
+    padding: 7px 16px;
+}
